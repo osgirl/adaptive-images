@@ -1,4 +1,6 @@
 [![Code Climate](https://codeclimate.com/github/talktalkplc/adaptive-images/badges/gpa.svg)](https://codeclimate.com/github/talktalkplc/adaptive-images)
+[![Test Coverage](https://codeclimate.com/github/talktalkplc/adaptive-images/badges/coverage.svg)](https://codeclimate.com/github/talktalkplc/adaptive-images/coverage)
+[![Issue Count](https://codeclimate.com/github/talktalkplc/adaptive-images/badges/issue_count.svg)](https://codeclimate.com/github/talktalkplc/adaptive-images)
 [![Build Status](https://travis-ci.org/talktalkplc/adaptive-images.svg?branch=master)](https://travis-ci.org/talktalkplc/adaptive-images)
 
 # TalkTalk Adaptive Images
