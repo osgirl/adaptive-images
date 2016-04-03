@@ -60,7 +60,7 @@ angular.module('myApp', [])
 For each breakpoint you wish an image to show at, simply add an **adaptive-img-set**.
 You can specify the difference between a non-retina and retina image by adding the **hi-res** attribute.
 
-```HTML5
+```html
 <adaptive-img alt="A responsive image">
     <adaptive-img-set breakpoint="xs" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=xs-1x&w=350&h=150"></adaptive-img-set>
     <adaptive-img-set breakpoint="sm" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=sm-1x&w=350&h=150"></adaptive-img-set>
