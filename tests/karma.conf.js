@@ -74,12 +74,16 @@ module.exports = function(config) {
         },
 
         coverageReporter: {
+            instrumenterOptions: {
+                istanbul: { noCompact: true }
+            },
             reporters: [
                 { type: 'clover', dir: 'tests/test-reports/', subdir: '.', file: 'clover.xml' },
                 { type: 'cobertura', dir: 'tests/test-reports/', subdir: '.', file: 'cobertura.xml' },
                 { type: 'html', dir: 'tests/test-reports/', subdir: '.' },
                 { type: 'text' },
-                { type: 'text-summary' }
+                { type: 'text-summary' },
+                { type: 'lcovonly', dir: 'tests/test-reports/', subdir: '.',  file: 'lcov.info'}
             ]
         }
 
