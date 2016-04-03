@@ -1,0 +1,6 @@
+.git
+bower_components
+lib
+node_modules
+.DS_Store
+tests/test-reports
